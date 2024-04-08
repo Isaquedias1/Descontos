@@ -24,7 +24,64 @@ namespace Descontos
 
         private void btncalc_Click(object sender, EventArgs e)
         {
-            double preco, regiao, cp;
+            double preco, regiao, vf, desconto;
+
+            preco = Convert.ToDouble(txtpreco.Text);
+            regiao = Convert.ToDouble(txtregiao.Text);
+            if (regiao == 1)
+            {
+                desconto = preco / 100 * 5;
+                vf = preco - desconto;
+
+                txttotal.Text = "R$" + vf.ToString();
+            }
+            else if (regiao == 2)
+            {
+                desconto = preco / 100 * 12;
+                vf = preco - desconto;
+
+                txttotal.Text = "R$" + vf.ToString();
+            }
+            else if (regiao == 3)
+            {
+                desconto = preco / 100 * 20;
+                vf = preco - desconto;
+
+                txttotal.Text = "R$" + vf.ToString();
+            }
+            else if (regiao == 4)
+            {
+                desconto = preco / 100 * 7;
+                vf = preco - desconto;
+
+                txttotal.Text = "R$" + vf.ToString();
+            }
+            else if (regiao == 5) {
+                desconto = preco / 100 * 15;
+                vf = preco - desconto;
+
+                txttotal.Text = "R$" + vf.ToString();
+            }
+
+        }
+
+        private void txtregiao_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txtproduto.Clear();
+            txtcod.Clear();
+            txtpreco.Clear();
+            txtregiao.Clear();
+            txttotal.Clear();
+        }
+
+        private void btnsair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
