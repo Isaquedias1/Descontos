@@ -16,7 +16,7 @@ namespace Descontos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmdesconto());
+            Application.Run(new frmmenu());
         }
     }
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace Descontos
 {
@@ -34,6 +35,7 @@ namespace Descontos
                 vf = preco - desconto;
 
                 txttotal.Text = "R$" + vf.ToString();
+                txtdesc.Text = "R$" + desconto.ToString();
             }
             else if (regiao == 2)
             {
@@ -41,6 +43,7 @@ namespace Descontos
                 vf = preco - desconto;
 
                 txttotal.Text = "R$" + vf.ToString();
+                txtdesc.Text = "R$" + desconto.ToString();
             }
             else if (regiao == 3)
             {
@@ -48,12 +51,13 @@ namespace Descontos
                 vf = preco - desconto;
 
                 txttotal.Text = "R$" + vf.ToString();
+                txtdesc.Text = "R$" + desconto.ToString();
             }
             else if (regiao == 4)
             {
                 desconto = preco / 100 * 7;
                 vf = preco - desconto;
-
+                txtdesc.Text = "R$" + desconto.ToString();
                 txttotal.Text = "R$" + vf.ToString();
             }
             else if (regiao == 5) {
@@ -61,6 +65,7 @@ namespace Descontos
                 vf = preco - desconto;
 
                 txttotal.Text = "R$" + vf.ToString();
+                txtdesc.Text = "R$" + desconto.ToString();
             }
 
         }
@@ -76,12 +81,41 @@ namespace Descontos
             txtcod.Clear();
             txtpreco.Clear();
             txtregiao.Clear();
+            txtdesc.Clear();
             txttotal.Clear();
+            txtproduto.Focus();
         }
 
         private void btnsair_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Hide();
+            frmmenu menu = new frmmenu();
+            menu.Visible = true;
+        }
+
+        private void frmdesconto_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtregiao_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txttotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblregiao_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
