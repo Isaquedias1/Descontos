@@ -30,25 +30,19 @@
         {
             this.lblproduto = new System.Windows.Forms.Label();
             this.lblcp = new System.Windows.Forms.Label();
-            this.lblregiao = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtproduto = new System.Windows.Forms.TextBox();
-            this.txtcod = new System.Windows.Forms.TextBox();
             this.txtpreco = new System.Windows.Forms.TextBox();
             this.txtregiao = new System.Windows.Forms.TextBox();
             this.txttotal = new System.Windows.Forms.TextBox();
             this.btncalc = new System.Windows.Forms.Button();
             this.btnlimpar = new System.Windows.Forms.Button();
             this.btnsair = new System.Windows.Forms.Button();
-            this.lblnordeste = new System.Windows.Forms.Label();
-            this.lblnorte = new System.Windows.Forms.Label();
-            this.lblcentro = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.lblreg = new System.Windows.Forms.Label();
             this.lblvldesc = new System.Windows.Forms.Label();
             this.txtdesc = new System.Windows.Forms.TextBox();
+            this.lblregiao = new System.Windows.Forms.Label();
+            this.txtr = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblproduto
@@ -68,16 +62,6 @@
             this.lblcp.Size = new System.Drawing.Size(97, 13);
             this.lblcp.TabIndex = 2;
             this.lblcp.Text = "Código do produto:";
-            // 
-            // lblregiao
-            // 
-            this.lblregiao.AutoSize = true;
-            this.lblregiao.Location = new System.Drawing.Point(30, 156);
-            this.lblregiao.Name = "lblregiao";
-            this.lblregiao.Size = new System.Drawing.Size(44, 13);
-            this.lblregiao.TabIndex = 3;
-            this.lblregiao.Text = "Região:";
-            this.lblregiao.Click += new System.EventHandler(this.lblregiao_Click);
             // 
             // label1
             // 
@@ -106,13 +90,6 @@
             this.txtproduto.Size = new System.Drawing.Size(133, 20);
             this.txtproduto.TabIndex = 6;
             // 
-            // txtcod
-            // 
-            this.txtcod.Location = new System.Drawing.Point(140, 78);
-            this.txtcod.Name = "txtcod";
-            this.txtcod.Size = new System.Drawing.Size(133, 20);
-            this.txtcod.TabIndex = 7;
-            // 
             // txtpreco
             // 
             this.txtpreco.Location = new System.Drawing.Point(140, 118);
@@ -122,7 +99,7 @@
             // 
             // txtregiao
             // 
-            this.txtregiao.Location = new System.Drawing.Point(140, 153);
+            this.txtregiao.Location = new System.Drawing.Point(140, 78);
             this.txtregiao.Name = "txtregiao";
             this.txtregiao.Size = new System.Drawing.Size(133, 20);
             this.txtregiao.TabIndex = 9;
@@ -167,60 +144,6 @@
             this.btnsair.UseVisualStyleBackColor = true;
             this.btnsair.Click += new System.EventHandler(this.btnsair_Click);
             // 
-            // lblnordeste
-            // 
-            this.lblnordeste.AutoSize = true;
-            this.lblnordeste.Location = new System.Drawing.Point(409, 118);
-            this.lblnordeste.Name = "lblnordeste";
-            this.lblnordeste.Size = new System.Drawing.Size(123, 13);
-            this.lblnordeste.TabIndex = 16;
-            this.lblnordeste.Text = "Nordeste: 12% número 2";
-            // 
-            // lblnorte
-            // 
-            this.lblnorte.AutoSize = true;
-            this.lblnorte.Location = new System.Drawing.Point(409, 94);
-            this.lblnorte.Name = "lblnorte";
-            this.lblnorte.Size = new System.Drawing.Size(103, 13);
-            this.lblnorte.TabIndex = 17;
-            this.lblnorte.Text = "Norte: 5% número  1";
-            // 
-            // lblcentro
-            // 
-            this.lblcentro.AutoSize = true;
-            this.lblcentro.Location = new System.Drawing.Point(409, 144);
-            this.lblcentro.Name = "lblcentro";
-            this.lblcentro.Size = new System.Drawing.Size(140, 13);
-            this.lblcentro.TabIndex = 18;
-            this.lblcentro.Text = "Centro-oeste: 20% número 3";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(409, 168);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(113, 13);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "Sudeste: 7% número 4";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(409, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(95, 13);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "Sul: 15% número 5";
-            // 
-            // lblreg
-            // 
-            this.lblreg.AutoSize = true;
-            this.lblreg.Location = new System.Drawing.Point(409, 72);
-            this.lblreg.Name = "lblreg";
-            this.lblreg.Size = new System.Drawing.Size(108, 13);
-            this.lblreg.TabIndex = 21;
-            this.lblreg.Text = "Descontos de região:";
-            // 
             // lblvldesc
             // 
             this.lblvldesc.AutoSize = true;
@@ -238,27 +161,39 @@
             this.txtdesc.Size = new System.Drawing.Size(133, 20);
             this.txtdesc.TabIndex = 24;
             // 
+            // lblregiao
+            // 
+            this.lblregiao.AutoSize = true;
+            this.lblregiao.Location = new System.Drawing.Point(30, 156);
+            this.lblregiao.Name = "lblregiao";
+            this.lblregiao.Size = new System.Drawing.Size(44, 13);
+            this.lblregiao.TabIndex = 3;
+            this.lblregiao.Text = "Região:";
+            this.lblregiao.Click += new System.EventHandler(this.lblregiao_Click);
+            // 
+            // txtr
+            // 
+            this.txtr.Location = new System.Drawing.Point(140, 153);
+            this.txtr.Name = "txtr";
+            this.txtr.ReadOnly = true;
+            this.txtr.Size = new System.Drawing.Size(133, 20);
+            this.txtr.TabIndex = 25;
+            // 
             // frmdesconto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtr);
             this.Controls.Add(this.txtdesc);
             this.Controls.Add(this.lblvldesc);
-            this.Controls.Add(this.lblreg);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.lblcentro);
-            this.Controls.Add(this.lblnorte);
-            this.Controls.Add(this.lblnordeste);
             this.Controls.Add(this.btnsair);
             this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btncalc);
             this.Controls.Add(this.txttotal);
             this.Controls.Add(this.txtregiao);
             this.Controls.Add(this.txtpreco);
-            this.Controls.Add(this.txtcod);
             this.Controls.Add(this.txtproduto);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -276,25 +211,19 @@
         #endregion
         private System.Windows.Forms.Label lblproduto;
         private System.Windows.Forms.Label lblcp;
-        private System.Windows.Forms.Label lblregiao;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtproduto;
-        private System.Windows.Forms.TextBox txtcod;
         private System.Windows.Forms.TextBox txtpreco;
         private System.Windows.Forms.TextBox txtregiao;
         private System.Windows.Forms.TextBox txttotal;
         private System.Windows.Forms.Button btncalc;
         private System.Windows.Forms.Button btnlimpar;
         private System.Windows.Forms.Button btnsair;
-        private System.Windows.Forms.Label lblnordeste;
-        private System.Windows.Forms.Label lblnorte;
-        private System.Windows.Forms.Label lblcentro;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label lblreg;
         private System.Windows.Forms.Label lblvldesc;
         private System.Windows.Forms.TextBox txtdesc;
+        private System.Windows.Forms.Label lblregiao;
+        private System.Windows.Forms.TextBox txtr;
     }
 }
 

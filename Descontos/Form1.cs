@@ -36,6 +36,7 @@ namespace Descontos
 
                 txttotal.Text = "R$" + vf.ToString();
                 txtdesc.Text = "R$" + desconto.ToString();
+                txtr.Text = "Região Norte";
             }
             else if (regiao == 2)
             {
@@ -44,6 +45,7 @@ namespace Descontos
 
                 txttotal.Text = "R$" + vf.ToString();
                 txtdesc.Text = "R$" + desconto.ToString();
+                txtr.Text = "Região Nordeste";
             }
             else if (regiao == 3)
             {
@@ -52,6 +54,7 @@ namespace Descontos
 
                 txttotal.Text = "R$" + vf.ToString();
                 txtdesc.Text = "R$" + desconto.ToString();
+                txtr.Text = "Região Centro-Oeste";
             }
             else if (regiao == 4)
             {
@@ -59,6 +62,7 @@ namespace Descontos
                 vf = preco - desconto;
                 txtdesc.Text = "R$" + desconto.ToString();
                 txttotal.Text = "R$" + vf.ToString();
+                txtr.Text = "Região Sudeste";
             }
             else if (regiao == 5) {
                 desconto = preco / 100 * 15;
@@ -66,6 +70,7 @@ namespace Descontos
 
                 txttotal.Text = "R$" + vf.ToString();
                 txtdesc.Text = "R$" + desconto.ToString();
+                txtr.Text = "Região Sul";
             }
 
         }
@@ -78,7 +83,7 @@ namespace Descontos
         private void btnlimpar_Click(object sender, EventArgs e)
         {
             txtproduto.Clear();
-            txtcod.Clear();
+            txtr.Clear();
             txtpreco.Clear();
             txtregiao.Clear();
             txtdesc.Clear();
