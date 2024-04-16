@@ -28,5 +28,12 @@ namespace Descontos
             frmdesconto desconto = new frmdesconto();
             desconto.Visible = true;
         }
+
+        private void cidadaniaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmidioma idioma = new frmidioma();
+            idioma.Visible = true;
+        }
     }
 }

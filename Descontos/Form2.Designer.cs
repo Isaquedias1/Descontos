@@ -32,6 +32,7 @@
             this.atividadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.descontosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cidadaniaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +50,8 @@
             // atividadesToolStripMenuItem
             // 
             this.atividadesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.descontosToolStripMenuItem});
+            this.descontosToolStripMenuItem,
+            this.cidadaniaToolStripMenuItem});
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.atividadesToolStripMenuItem.Text = "Atividades";
@@ -67,6 +69,13 @@
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // cidadaniaToolStripMenuItem
+            // 
+            this.cidadaniaToolStripMenuItem.Name = "cidadaniaToolStripMenuItem";
+            this.cidadaniaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cidadaniaToolStripMenuItem.Text = "Cidadania";
+            this.cidadaniaToolStripMenuItem.Click += new System.EventHandler(this.cidadaniaToolStripMenuItem_Click);
             // 
             // frmmenu
             // 
@@ -91,5 +100,6 @@
         private System.Windows.Forms.ToolStripMenuItem atividadesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem descontosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cidadaniaToolStripMenuItem;
     }
 }
