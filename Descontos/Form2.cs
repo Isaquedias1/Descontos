@@ -35,5 +35,10 @@ namespace Descontos
             frmidioma idioma = new frmidioma();
             idioma.Visible = true;
         }
+
+        private void atividadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

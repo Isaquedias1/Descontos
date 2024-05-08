@@ -31,8 +31,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.atividadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.descontosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cidadaniaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +55,7 @@
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.atividadesToolStripMenuItem.Text = "Atividades";
+            this.atividadesToolStripMenuItem.Click += new System.EventHandler(this.atividadesToolStripMenuItem_Click);
             // 
             // descontosToolStripMenuItem
             // 
@@ -63,19 +64,19 @@
             this.descontosToolStripMenuItem.Text = "Descontos";
             this.descontosToolStripMenuItem.Click += new System.EventHandler(this.descontosToolStripMenuItem_Click);
             // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
-            // 
             // cidadaniaToolStripMenuItem
             // 
             this.cidadaniaToolStripMenuItem.Name = "cidadaniaToolStripMenuItem";
             this.cidadaniaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cidadaniaToolStripMenuItem.Text = "Cidadania";
             this.cidadaniaToolStripMenuItem.Click += new System.EventHandler(this.cidadaniaToolStripMenuItem_Click);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // frmmenu
             // 
