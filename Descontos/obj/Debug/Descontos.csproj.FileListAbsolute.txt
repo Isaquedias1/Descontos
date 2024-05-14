@@ -10,3 +10,4 @@ C:\Users\2jd\Documents\Nicollas e Isaque 2jd POO\Descontos\Descontos\obj\Debug\D
 C:\Users\2jd\Documents\Nicollas e Isaque 2jd POO\Descontos\Descontos\obj\Debug\Descontos.pdb
 C:\Users\2jd\Documents\Nicollas e Isaque 2jd POO\Descontos\Descontos\obj\Debug\Descontos.frmmenu.resources
 C:\Users\2jd\Documents\Nicollas e Isaque 2jd POO\Descontos\Descontos\obj\Debug\Descontos.frmidioma.resources
+C:\Users\2jd\Documents\Nicollas e Isaque 2jd POO\Descontos\Descontos\obj\Debug\Descontos.frmfatorial.resources

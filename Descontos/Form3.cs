@@ -31,8 +31,8 @@ namespace Descontos
 
             else if (codp == 2)
             {
-                txtidioma.Text = "Deustch";
-                txtpais.Text = "Germany";
+                txtidioma.Text = "Deutsch";
+                txtpais.Text = "Deutschland";
             }
 
             else if (codp == 3)

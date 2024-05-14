@@ -89,6 +89,7 @@
             this.txtproduto.Name = "txtproduto";
             this.txtproduto.Size = new System.Drawing.Size(133, 20);
             this.txtproduto.TabIndex = 6;
+            this.txtproduto.TextChanged += new System.EventHandler(this.txtproduto_TextChanged);
             // 
             // txtpreco
             // 

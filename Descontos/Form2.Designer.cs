@@ -31,8 +31,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.atividadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.descontosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cidadaniaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fatoraçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +52,8 @@
             // 
             this.atividadesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.descontosToolStripMenuItem,
-            this.cidadaniaToolStripMenuItem});
+            this.cidadaniaToolStripMenuItem,
+            this.fatoraçãoToolStripMenuItem});
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.atividadesToolStripMenuItem.Text = "Atividades";
@@ -63,6 +65,13 @@
             this.descontosToolStripMenuItem.Text = "Descontos";
             this.descontosToolStripMenuItem.Click += new System.EventHandler(this.descontosToolStripMenuItem_Click);
             // 
+            // cidadaniaToolStripMenuItem
+            // 
+            this.cidadaniaToolStripMenuItem.Name = "cidadaniaToolStripMenuItem";
+            this.cidadaniaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cidadaniaToolStripMenuItem.Text = "Cidadania";
+            this.cidadaniaToolStripMenuItem.Click += new System.EventHandler(this.cidadaniaToolStripMenuItem_Click);
+            // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
@@ -70,12 +79,12 @@
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
-            // cidadaniaToolStripMenuItem
+            // fatoraçãoToolStripMenuItem
             // 
-            this.cidadaniaToolStripMenuItem.Name = "cidadaniaToolStripMenuItem";
-            this.cidadaniaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cidadaniaToolStripMenuItem.Text = "Cidadania";
-            this.cidadaniaToolStripMenuItem.Click += new System.EventHandler(this.cidadaniaToolStripMenuItem_Click);
+            this.fatoraçãoToolStripMenuItem.Name = "fatoraçãoToolStripMenuItem";
+            this.fatoraçãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fatoraçãoToolStripMenuItem.Text = "Fatoração";
+            this.fatoraçãoToolStripMenuItem.Click += new System.EventHandler(this.fatoraçãoToolStripMenuItem_Click);
             // 
             // frmmenu
             // 
@@ -101,5 +110,6 @@
         private System.Windows.Forms.ToolStripMenuItem descontosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cidadaniaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fatoraçãoToolStripMenuItem;
     }
 }

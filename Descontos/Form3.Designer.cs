@@ -87,7 +87,7 @@
             this.txtidioma.Location = new System.Drawing.Point(141, 112);
             this.txtidioma.Name = "txtidioma";
             this.txtidioma.ReadOnly = true;
-            this.txtidioma.Size = new System.Drawing.Size(192, 20);
+            this.txtidioma.Size = new System.Drawing.Size(255, 20);
             this.txtidioma.TabIndex = 5;
             // 
             // lblpais
@@ -104,7 +104,7 @@
             this.txtpais.Location = new System.Drawing.Point(141, 154);
             this.txtpais.Name = "txtpais";
             this.txtpais.ReadOnly = true;
-            this.txtpais.Size = new System.Drawing.Size(192, 20);
+            this.txtpais.Size = new System.Drawing.Size(255, 20);
             this.txtpais.TabIndex = 7;
             // 
             // btnchecar

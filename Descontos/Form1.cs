@@ -122,5 +122,10 @@ namespace Descontos
         {
 
         }
+
+        private void txtproduto_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
