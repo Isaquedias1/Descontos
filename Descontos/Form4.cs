@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Descontos
 {
+<<<<<<< HEAD
     public partial class frmfatorial : Form
     {
         public frmfatorial()
@@ -69,6 +70,28 @@ namespace Descontos
                 num = x;
                 txtresult.Text = String.Concat(txtresult.Text,"\r\n", x.ToString());
                 i--;
+=======
+    public partial class frmfatorizacao : Form
+    {
+        public frmfatorizacao()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double i, num, result;
+
+            num = Convert.ToDouble(txtnum.Text);
+
+            i = 0;
+
+            while (num != num * i)
+
+            {
+                result = num * num - i;
+                i++;
+>>>>>>> caf6e1645abb5e4a696f4d399cfd98eb4601b35e
             }
             
         }

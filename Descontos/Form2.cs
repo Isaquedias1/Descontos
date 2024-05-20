@@ -36,11 +36,17 @@ namespace Descontos
             idioma.Visible = true;
         }
 
+<<<<<<< HEAD
         private void fatoraçãoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
             frmfatorial fatorial = new frmfatorial();
             fatorial.Visible = true;
+=======
+        private void atividadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+>>>>>>> caf6e1645abb5e4a696f4d399cfd98eb4601b35e
         }
     }
 }

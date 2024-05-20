@@ -10,4 +10,20 @@ C:\Users\2jd\Documents\Nicollas e Isaque 2jd POO\Descontos\Descontos\obj\Debug\D
 C:\Users\2jd\Documents\Nicollas e Isaque 2jd POO\Descontos\Descontos\obj\Debug\Descontos.pdb
 C:\Users\2jd\Documents\Nicollas e Isaque 2jd POO\Descontos\Descontos\obj\Debug\Descontos.frmmenu.resources
 C:\Users\2jd\Documents\Nicollas e Isaque 2jd POO\Descontos\Descontos\obj\Debug\Descontos.frmidioma.resources
+<<<<<<< HEAD
 C:\Users\2jd\Documents\Nicollas e Isaque 2jd POO\Descontos\Descontos\obj\Debug\Descontos.frmfatorial.resources
+=======
+C:\Users\2jd\Source\Repos\Descontos\Descontos\bin\Debug\Descontos.exe.config
+C:\Users\2jd\Source\Repos\Descontos\Descontos\bin\Debug\Descontos.exe
+C:\Users\2jd\Source\Repos\Descontos\Descontos\bin\Debug\Descontos.pdb
+C:\Users\2jd\Source\Repos\Descontos\Descontos\obj\Debug\Descontos.csproj.AssemblyReference.cache
+C:\Users\2jd\Source\Repos\Descontos\Descontos\obj\Debug\Descontos.frmdesconto.resources
+C:\Users\2jd\Source\Repos\Descontos\Descontos\obj\Debug\Descontos.frmmenu.resources
+C:\Users\2jd\Source\Repos\Descontos\Descontos\obj\Debug\Descontos.frmidioma.resources
+C:\Users\2jd\Source\Repos\Descontos\Descontos\obj\Debug\Descontos.Properties.Resources.resources
+C:\Users\2jd\Source\Repos\Descontos\Descontos\obj\Debug\Descontos.csproj.GenerateResource.cache
+C:\Users\2jd\Source\Repos\Descontos\Descontos\obj\Debug\Descontos.csproj.CoreCompileInputs.cache
+C:\Users\2jd\Source\Repos\Descontos\Descontos\obj\Debug\Descontos.exe
+C:\Users\2jd\Source\Repos\Descontos\Descontos\obj\Debug\Descontos.pdb
+C:\Users\2jd\Source\Repos\Descontos\Descontos\obj\Debug\Descontos.frmfatorizacao.resources
+>>>>>>> caf6e1645abb5e4a696f4d399cfd98eb4601b35e

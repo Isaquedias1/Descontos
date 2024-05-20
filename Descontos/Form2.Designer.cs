@@ -33,7 +33,10 @@
             this.descontosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cidadaniaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
             this.fatoraçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+=======
+>>>>>>> caf6e1645abb5e4a696f4d399cfd98eb4601b35e
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,6 +60,7 @@
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.atividadesToolStripMenuItem.Text = "Atividades";
+            this.atividadesToolStripMenuItem.Click += new System.EventHandler(this.atividadesToolStripMenuItem_Click);
             // 
             // descontosToolStripMenuItem
             // 
@@ -66,6 +70,7 @@
             this.descontosToolStripMenuItem.Click += new System.EventHandler(this.descontosToolStripMenuItem_Click);
             // 
             // cidadaniaToolStripMenuItem
+<<<<<<< HEAD
             // 
             this.cidadaniaToolStripMenuItem.Name = "cidadaniaToolStripMenuItem";
             this.cidadaniaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
@@ -80,11 +85,20 @@
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // fatoraçãoToolStripMenuItem
+=======
+>>>>>>> caf6e1645abb5e4a696f4d399cfd98eb4601b35e
             // 
             this.fatoraçãoToolStripMenuItem.Name = "fatoraçãoToolStripMenuItem";
             this.fatoraçãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.fatoraçãoToolStripMenuItem.Text = "Fatoração";
             this.fatoraçãoToolStripMenuItem.Click += new System.EventHandler(this.fatoraçãoToolStripMenuItem_Click);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // frmmenu
             // 
